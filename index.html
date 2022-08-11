@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: 
+             linear-gradient(rgba(0,0,0,0.5), 
+           rgba(0,0,0,0.5)), url(./1.jpg);
+             background-size: cover;">
+  <nav>
+    <div class="hello">
+      <ul>
+        <div class="logo"> MR-SHARK </div>
+        <a href="hello.html"><button class="btn-1"> REGISTER </button></a>
+        <button class="btn-2"> LOGIN</button>
+        <button class="btn-3"> CONTACT </button>
+      </ul>
+    </div>
+  </nav>
+  <div class="main">
+    <form action="login.php" method="post">
+      <div class="container">
+        <div class="table">
+          <div class="hov"> Username : <br> <input type="text" name="username" class="under"></div><br>
+          <div class="hov"> Password : <br> <input type="password" name="password" class="under"></div><br>
+          <div class="hov"> State : <br> <input type="text" name="state" class="under"></div><br>
+          <div class="hov"> Gender :
+            <div><br>
+              Male<input type="radio" name="gender" class="under1" value="m">
+              Female <input type="radio" name="gender" class="under1" value="f">
+            </div>
+          </div><br>
+          <div class="hov"> Address : <br> <textarea name="address" id="" cols="26" rows="9" class="unders"></textarea></div>
+          <br>
+          <input type="submit" value="register" class="btn-s"> <br><br>
+          <h5 class="btn">Developed by SHARIQUE MANGANI </h5>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
